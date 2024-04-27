@@ -1,26 +1,83 @@
 <template>
-
-<my-component />
-
-<my-half />
-<my-zashita />
-<my-happen />
-<my-smile />
-<my-first />
-<my-second />
+  <header>
+    <section class="header_all">
+      <div class="header_icon">
+        <img src="../src/components/Group 14.png" alt="" />
+      </div>
+      <div class="ul_and_li">
+        <ul>
+          <li class="li_navbar">Home</li>
+          <li class="li_navbar">Listing</li>
+          <li class="li_navbar">Property</li>
+          <li class="li_navbar">Agents</li>
+          <li class="li_navbar">Blog</li>
+          <button class="for_signin_button">Sign in</button>
+        </ul>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="easy_to_find_home">
+      <div class="for_h1">
+        <h1>Easy way to find a home that’s perfect for you</h1>
+      </div>
+      <div class="for_p">
+        The find and most trusted marketplace of design & build house in the
+        world.
+      </div>
+    </section>
+    <section class="for_half_card">
+      <section class="rent_sell">
+        <div class="sale">
+          <ul>
+            <li class="rent">Rent</li>
+            <li>Buy</li>
+            <li>Sell</li>
+          </ul>
+        </div>
+        <section class="location">
+          <div class="location_div">
+            <div class="img_and_p">
+              <img src="../src/components/Location.png" alt="" />
+              <p>Location</p>
+            </div>
+            <div class="under_location_h1">
+              <h1>Los Angels</h1>
+            </div>
+          </div>
+          <div class="location_div">
+            <div class="img_and_p">
+              <img src="../src/components/Property.png" alt="" />
+              <p>Property Type</p>
+            </div>
+            <div class="under_location_h1">
+              <h1>Delux</h1>
+            </div>
+          </div>
+          <div class="location_div">
+            <div class="img_and_p">
+              <img src="../src/components/Price.png" alt="" />
+              <p>Average Price</p>
+            </div>
+            <div class="under_location_h1">
+              <h1>$7000 - 8000</h1>
+            </div>
+          </div>
+          <div class="near_cost_button">
+            <button>Search</button>
+          </div>
+        </section>
+      </section>
+      <section class="home_img">
+        <img src="../src/components/01-01 1.png" alt="" />
+      </section>
+    </section>
+      
+    
+  </main>
 </template>
 
-<script>
-
-
-export default {
-  name: 'App',
-
-}
-</script>
-
 <style>
-
 .body{
   position: relative;
 }
@@ -265,7 +322,6 @@ header section {
   padding: 20px;
 }
 .cards {
-  margin-left: 180px;
   display: flex;
   padding-top: 150px;
 }
